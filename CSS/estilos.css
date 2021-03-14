@@ -173,7 +173,7 @@ body{
     display: block;
     margin-bottom: 15px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .6);
-    cursor: pointer;
+    cursor: default;
 }
 
 
@@ -198,7 +198,7 @@ body{
     top: 15px;
     right: 15px;
     width: 40px;
-    cursor: pointer;
+    cursor: default;
 }
 
 .experts{
