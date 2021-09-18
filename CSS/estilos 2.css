@@ -23,11 +23,11 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: url(img/Cabecera.PNG);
+    background-image: url(img/Cabecera.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    
 }
 
 .head{
@@ -306,11 +306,11 @@ footer{
         width: 80%;
         margin-bottom: 40px;
     }
-
+    
     .checklist-servicio{
         width: 80%;
     }
-
+    
     .service{
         margin-bottom: 30px;
     }
@@ -318,16 +318,16 @@ footer{
     .img-galeria{
         width: 45%;
     }
-
+    
     .agregarImagen{
         width: 80%;
     }
 
-
+    
     .cont-expert{
         width: 80%;
     }
-
+    
     .footer-content{
         justify-content: center;
     }
@@ -346,7 +346,7 @@ footer{
         width: 80%;
         margin-bottom: 40px;
     }
-
+    
 }
 
 
@@ -371,7 +371,7 @@ footer{
     .img-galeria{
         width: 95%;
     }
-
+    
     .agregar-imagen{
         width: 90%;
     }
@@ -390,5 +390,5 @@ footer{
         width: 95%;
         margin-bottom: 40px;
     }
-
+    
 }
