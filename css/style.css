@@ -904,6 +904,7 @@ section#team {
     margin: 0 auto;
     float: left;
     left: 11%;
+    
 }
 @media (max-width:450px) {
 .carousel-indicators {
@@ -1075,7 +1076,7 @@ section#portfolio {
     position: absolute;
     text-align: center;
     margin: 0 auto;
-    color: #fffff;
+    color: #1abc9c;
     background: linear-gradient(to right, #7b4397, #dc2430);
     padding: 25% 0;
     height: 100%;
