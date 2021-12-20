@@ -1,569 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+	<meta charset="utf-8">
+	<title>Impetus_Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="some keywords that best describe your business">
+	<meta name="description" content="a short description of your company">
+	<meta name="author" content="SRPACDY">
 
-    <title> Impetus Company</title>
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Bootstrap -->
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Fuentes de texto -->
-
-   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-
-
-    <!-- Animaciones -->
-
-    <link rel="stylesheet" href="css/animate.css">
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/background.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
 
 </head>
-
 <body>
-    <!-- Cavecera -->
-    <header id="header">
-        <!-- Navegacion -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid top-nav">
-                <!-- Marca y alternar se agrupan para una mejor visualización móvil -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Menu Navegacion</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo-top page-scroll" href="#header">
-                        <img class="img-responsive"  src="img/Logo IMP.png" alt="logo">
-                    </a>
-                </div>
-                <!-- Menu -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden nav-buttons">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#slider">Inicio</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#services">Proyecto</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#team">Equipos</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#portfolio">Contenido</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#clients">Sponsors</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Slider -->
-    <section id="slider">
-      <div id="myCarousel-one" class="carousel slide">
 
-       <ol class="carousel-indicators">
-            <li data-target="#myCarousel-one" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel-one" data-slide-to="1"></li>
-           
-        </ol>
+	<!-- Primary Page Layout
+	================================================== -->
 
-            <div class="carousel-inner">
-                <div class="item active"> 
-                
-                    <div class="carousel-caption wrapper">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="intro-text">
-                                    <h1 class="intro-lead-in animated bounceInLeft">ImpetusCompany</h1>
-                                    <h2 class="intro-heading animated bounceInRight">Sobre Nosotros</h2>
-                                    <p class="intro-paragraph animated bounceInRight">Para saber mas sobre nuestro proyecto clica aqui.</p>
-                                </div>
-                                <a href="#services" class="page-scroll btn btn-xl slider-button animated bounceInUp">Proyecto</a>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="img/backgrounds/header-bg.png" alt="slider-image"/>
-                
-                </div>
-                <div class="item">
-                    <div class="carousel-caption wrapper">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="intro-text">
-                                    <h1 class="intro-lead-in animated bounceInLeft">ImpetusCompany</h1>
-                                    <h2 class="intro-heading animated bounceInRight">Ya en Twitch</h2>
-                                    <p class="intro-paragraph animated bounceInRight">Nuestros eventos y Podcast en directo.</p>
-                                </div>
-                                <a href="https://www.twitch.tv/Impetus_Company" class="page-scroll btn btn-xl slider-button animated bounceInUp">Twitch</a>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="img/backgrounds/header-bg-two.png" alt="slider-image"/>
-                </div>
-                    <!-- controles -->
-                    <a class="myCarousel-one-left" href="#myCarousel-one" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="myCarousel-one-right" href="#myCarousel-one" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seccion de servicios -->
-    <section id="services">
-        <div class="container-fluid wrapper">
-            <div class="row">
-                <div class="col-lg-12 text-left">
-                    <h2 class="section-heading">Nuestro proyecto</h2>
-                    <h3 class="section-subheading">Impetus Company es una copañia que cuenta con varios sectores tanto en los esports amateur como en la creacionde contenido. Tambien contamos con una serie de servidores dirijidos a nuestro publico los cuales estan creados para el crecimiento de nuestra comunidad. </h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <!-- Primera hilera de servicios-->
-                <div class="row first-services">
-                    <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-microphone"></i>
-                        <h4 class="service-heading">Podcast</h4>
-                        <p class="text-services">Impetus Podcast es un programa en el cual basado en nuevas noticias sobre nuestro equipo y entrevistas tanto a jugadores como a creadores de contenido de cualquier tamaño con el objetivo de pasárlo bien y ofrece noticias y contenido de actualidad.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-desktop"></i>
-                        <h4 class="service-heading">Creadores de Contenido</h4>
-                        <p class="text-services">Impetus Content Creators es un programa el cual usamos para unirnos entre todos los miembros, y tener el máximo alcance posible para darnos a conocer y poder formar una gran comunidad en la que podamos disfrutar haciendo lo que mas nos gusta.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-user"></i>
-                        <h4 class="service-heading">Comunidad</h4>
-                        <p class="text-services">Desde Impetus hacemos que nuestra comunidad sea activa y respetable, todos los fines de semana hacemos diferentes eventos para poder crear diversión además de unificarnos.
-                            Si quieres saber más o unirte a nosotros no olvides en contactarnos!</p>
-                    </div>
-                </div>
-                
-                <!-- Segundo hilera de servicios-->
-                    <div class="row second-services">
-                      <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-youtube"></i>
-                        <h4 class="service-heading">Youtube</h4>
-                        <p class="text-services">En nuestro canal de Youtube podreis ver todos los directos de nuestro canal de twitch y presentaciones de nuestros jugadores torneos etc.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-twitch"></i>
-                        <h4 class="service-heading">Twitch</h4>
-                        <p class="text-services">En nuestro canal de twitch podreis ver tanto entrenamientos como partidos y otros contenidos en pleno directo.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 service">
-                        <i class="fa fa-instagram"></i>
-                        <h4 class="service-heading">Redes sociales</h4>
-                        <p class="text-services">Atraves de nuestras redes sociales intentamos proporcionar toda la actualidad de nuestra compañia.</p>
-                    </div>
-                </div>
-            </div>
+<div class="header bg">
+	<div class="container">
+		<div class="row">
+			<header class="col-xs-12 text-center">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png"></a>
+					<h1>Nueva pagina Web</h1>
+					<ul class="time">
+						<li>
+							<span class="days" id="days"></span><br />
+							Days
+						</li>
+						<li>
+							<span class="hours"></span><br />
+							Hours
+						</li>
+						<li>
+							<span class="minutes"></span><br />
+							Minutes
+						</li>
+						<li>
+							<span class="seconds"></span><br />
+							Seconds
+						</li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="down">
+					<a href="#about" class="smooth"><i class="fa fa-angle-down fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
 	</div>
-    </section>
-    <!-- Cavecera del equipo -->
-    <section id="team">
-        <div class="container-fluid wrapper">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Equipos</h2>
-                    <h3 class="section-subheading text-muted">Aqui teneis todos nuestros equipos para el año 2021/2022. </h3>
-                </div>
-            </div>
-            <div id="myCarousel-two" class="carousel slide">
-                <!-- Envoltorio para diapositivas -->
-                <div class="carousel-inner team-wrapper">
-                    <div class="item active">
-                        <!-- primer miembro del equipo -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 team-member">
-                            <img src="img/team/2valorant.png" alt="team-member-img1">
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 team-member-bio">
-                            <h3 class="team-member-name">Valorant</h3>
-                            <p class="team-text-short">Desde Impetus_Company estamos muy orguyosos de poder presentaros a nuestro roster de Valorant para el año 2021/2022.</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><i class="fa fa-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <!-- Segundo miembro del equipo 
-                        <div class="col-xs-12 col-sm-4 col-md-4 team-member">
-                            <img src="img/team/jenna.png" alt="team-member-img1">
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 team-member-bio">
-                            <h3 class="team-member-name">Fifa 22</h3>
-                            <p class="team-text-short">Desde Impetus_Company estamos encantados de presentarles nuestro equipo de fifa 22.</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><i class="fa fa-plus"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item">-->
-                       
-                        <!-- Tercer miembro del equipo -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 team-member">
-                            <img src="img/team/jenna.png" alt="team-member-img1">
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 team-member-bio">
-                            <h3 class="team-member-name">Fortnite</h3> 
-                            <p class="team-text-short">Desde Impetus_Company estamos encantados de presentarles nuestro equipo de Fortnite.</p>
-                            <ul class="list-inline social-buttons">
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- controles -->
-                <a class="left carousel-control" href="#myCarousel-two" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel-two" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                <!-- Indicadores -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel-two" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel-two" data-slide-to="1"></li>
-                    <li data-target="#myCarousel-two" data-slide-to="2"></li>
-                </ol>
-            </div>
-        </div>
-    </section>
-    <!-- seccion de contenido -->
-    <section id="portfolio">
-        <div class="container-fluid wrapper">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section-heading">Contenido</h2>
-                    <h3 class="section-subheading text-muted">Disfruta de todo nuestro contenido y mucho más.</h3>
-                </div>
-                
-                    <ul class="filter">
-                    </ul>
-                    <!--/#Filtro de contenido-->
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-wrapper portfolio-container-fluid">
-            <div class="portfolio-items">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#Contenido1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>La union RP</h4>
-                                    <h5>Colaboracion con servidor de gtav roleplay.</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus_company_x_la_union_rp.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid php graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Renovacion de Perfil</h4>
-                                    <h5>Renovacion</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/New profile.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress bootstrap">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Valorant</h4>
-                                    <h5>Nuestro equipo de Valorant.</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus Valorant.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress html bootstrap graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Renovacion de Perfil</h4>
-                                    <h5>Branding</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/New profile.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Web Design</h4>
-                                    <h5>Web Design</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus_company_x_la_union_rp.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress html graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Packageing and Label Design</h4>
-                                    <h5>Branding</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus_company_x_la_union_rp.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <h5>Branding</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus_company_x_la_union_rp.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 work-grid wordpress graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="hover-text">
-                                    <h4>Book Cover</h4>
-                                    <h5>Branding</h5>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/Impetus_company_x_la_union_rp.png" class="img-responsive" alt="portfolio-image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-    </section>
-    <!-- Sponsors -->
-    <div id="clients">
-        <div class="container-fluid-clients wrapper">
-            <div id="myCarousel-three" class="carousel-clients slide">
-                <!-- Envoltorio para diapositivas -->
-                <div class="carousel-inner">
-                    <div class="item active">    
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-                            <a href="https://dayangsport.com/product-category/clubs/impetus-esport/" class="logo-link"><img src="img/clients/Dayang.png" class="client-logo" alt="logo"></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-                            <a href="https://www.instant-gaming.com/es/?gclid=EAIaIQobChMIwNTLvpP_8wIVhoxRCh2iJgiTEAAYASAAEgIaVPD_BwE" class="logo-link"><img src="img/clients/Instant Gaming.png" class="client-logo" alt="logo"></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-                            <a href="" class="logo-link"><img src="img/clients/rogue.jpg" class="client-logo" alt="logo"></a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                            <a href="https://dayangsport.com/product-category/clubs/impetus-esport/" class="logo-link"><img src="img/clients/Dayang.png" class="client-logo" alt="logo"></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                            <a href="https://www.instant-gaming.com/es/?gclid=EAIaIQobChMIwNTLvpP_8wIVhoxRCh2iJgiTEAAYASAAEgIaVPD_BwE" class="logo-link"><img src="img/clients/Instant Gaming.png" class="client-logo" alt="logo"></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                            <a href="" class="logo-link"><img src="img/clients/rogue.jpg" class="client-logo" alt="logo"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pie de pagina -->
-    <footer>
-        <div class="container-fluid wrapper">
-            <div class="col-lg-12 footer-info">
-                <a class="footer-logo" href="#header">
-                    <img class="img-responsive" src="img/Logo IMP.png" alt="logo-footer">
-                </a>
-                <p class="footer-text">Esta pagina ha sido creada por impetus company con el fin de poder darles una mayor difusion a su compañia y para que sea mas facil la consulta de los valores de esta compañia. </p>
-            </div>
-            <div class="col-sm-6 col-md-12 social-icons-footer">
-                <ul class="list-inline social-buttons">
-                    <li><a href=""><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li><a href="https://twitter.com/Impetus_Company"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-twitch"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
-                <span class="copyright">Copyright &copy; ImpetusCompany </span>
-            </div>
-        </div>
-    </footer>
-    <!-- Definicion apartado de contenido -->
-    <!-- la unionrp -->
-    <div class="portfolio-modal modal fade" id="Contenido1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Definicion de colaboracion la unionrp -->
-                            <h2>La Union RP <br>x<br>Impetus_Company</h2>
-                            <p class="item-intro text-muted">Colaboracion entre Impetus_Company y La Union Rp</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/Impetus_company_x_la_union_rp.png" alt="modal">
-                            <p>Esta colaboracion se a llevado a cabo para que todo el publico tanto de Impetus_Company y de La Union RP disfrute de la mejor experiencia de rol en gta V roleplay.</p>
-                            <p>
-                            <ul class="list-inline">
-                                <li>Date: Nobiembre 4, 2021</li>
-                                <li>Client: La Union RP</li>
-                                <li>Category: Colaboracion</li>
-                            </ul>
-                            <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar Contenido</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Equipo de valorant-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Contenido Valorant-->
-                            <h2>Valorant</h2>
-                            <p class="item-intro text-muted">Nuestro equipo de Valorant.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/Impetus Valorant.png" alt="modal">
-                            <p>Desde Impetus_Company estamos muy orguyosos de poder presentaros a nuestro roster de Valorant para el año 2021/2022.<br>Integrantes: Torres, Miguelo, Nuño, .... , ...?.
-                            </p>
-                            <p>
-                            <ul class="list-inline">
-                                <li>Date: Nobiembre 5, 2021</li>
-                                <li>Client: Equipo de Valorant.</li>
-                                <li>Category: Equipo.</li>
-                            </ul>
-                            <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar contenido</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-    <!--portfolio modal4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Renovacion</h2>
-                            <p class="item-intro text-muted">Renovacion de perfil.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/New profile.png" alt="modal">
-                            <p>Hemos decidido darle un lavado de cara a nuetro perfil para que sea mas vistoso y pueda atraer más a nuevo publico que no nos conoce aun.</p>
-                            <p>
-                            <ul class="list-inline">
-                                <li>Date: Nobiembre 8, 2021</li>
-                                <li>Client: Renovacion.</li>
-                                <li>Category: Contenido.</li>
-                            </ul>
-                            <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar contenido</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Boostrap javascript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Script de ajustes de color -->
-    <script src="js/settings-script.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
+</div>
 
-    <!-- SmoothScroll script -->
-    <script src="js/smoothscroll.js"></script>
-    <!-- Temas customisados JavaScript -->
-    <script src="js/imp.js"></script>
-    <!-- Isotope -->
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <!-- Footer Reveal scirt -->
-    <script src="js/footer-reveal.js"></script>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">				
+				<div class="copy">Copyright&copy;2022 Impetus_Company </div>
+			</div>			
+		</div>
+	</div>
+</div>
+
+
+
+	<!-- JS
+	================================================== -->
+	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/scroll.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/images.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/form.js" charset="utf-8"></script>
+
+	<!-- End Document
+	================================================== -->
 
 </body>
-
 </html>
